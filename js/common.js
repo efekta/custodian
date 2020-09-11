@@ -1,12 +1,96 @@
+const makeData = (elements) => {
+  let data = {}
+  for (let item of elements) {
+    if (item.type !== 'radio' && item.type !== 'submit' && item.type !== 'checkbox') {
+      data[item.name] = `${$(item).attr('placeholder')}: ${$(item).val()}`
+    }
+    if (item.type === 'radio' && $(item).is(':checked')) {
+      data[item.name] = $(item).attr('aria-valuetext')
+    }
+  }
+  return data
+}
+
+const sendMsg = (data, idElemMsg) => {
+  $.ajax({
+    type: 'POST',
+    url: 'http://localhost:3002/send-email',
+    data,
+    success: function () {
+      let msg = $(idElemMsg)
+      msg.addClass('success')
+      msg.show()
+      msg.text(() => {
+        return 'Успешно отправлено !'
+      })
+      console.log('Успешно отправлено !');
+    },
+    error: function () {
+      let msg = $(idElemMsg)
+      msg.removeClass('success')
+      msg.addClass('error')
+      msg.show()
+      msg.text(() => {
+        return 'Ошибка'
+      })
+      console.log('Ошибка !')
+    }
+  })
+}
+
+const isDisableButton = (elem, btn) => {
+  if (!$(elem).is(':checked')) {
+    $(btn).prop('disabled', true);
+  } else {
+    $(btn).prop('disabled', false);
+  }
+}
+
+//forms
+// disable btn via checkbox
+$('#ya').on('click', () => {
+  isDisableButton('#ya', '#btn-contacts')
+})
+
+$('#ya-float').on('click', () => {
+  isDisableButton('#ya-float', '#btn-contacts-float')
+})
+
+$('#ya-modal').on('click', () => {
+  isDisableButton('#ya-modal', '#btn-contacts-modal')
+})
+
+// send message
+$('.form-end-page').submit((e) => {
+  e.preventDefault()
+  const data = makeData(e.target.elements)
+  sendMsg(data, '#msg')
+})
+
+$('.form-float').submit((e) => {
+  e.preventDefault()
+  const data = makeData(e.target.elements)
+  sendMsg(data, '#msg-float')
+})
+
+$('.form-modal').submit((e) => {
+  e.preventDefault()
+  const data = makeData(e.target.elements)
+  data.reason = $('.modal-heading').text()
+  sendMsg(data, '#msg-modal')
+})
+
 $(document).ready(function(){
-  /*================================
-Плавный скролл до якоря jquery
-=================================*/
+    /*================================
+    Плавный скролл до якоря jquery
+    =================================*/
     $("body").on('click', '[href*="#"]', function(e){
       var fixed_offset = 100;
       $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
       e.preventDefault();
     });
+    // mask input
+    $(".phone-input").mask("+ 7 (999) 999-9999");
     /*========================
      mob menu
      =======================*/
@@ -15,6 +99,7 @@ $(document).ready(function(){
         $('.nav-list').toggleClass("show");
         // $('.nav').toggleClass("nav_hide");
         $('body').toggleClass('overflow');
+
     });
     jQuery(window).width() <= 992 && $(".nav-list li").on('click', function() {
         $('.menu-toggle').removeClass("on");
@@ -22,7 +107,12 @@ $(document).ready(function(){
         // $('.nav').removeClass("nav_hide");
         $('body').removeClass('overflow');
     });
+    // modal
+    $('.modal-toggle').on('click', function(e) {
+      e.preventDefault();
+      $('.modal').toggleClass('is-visible');
 
+    });
     /**/
     $('#company-link_1').on('click', function() {
         $('#company_2').removeClass('open');
