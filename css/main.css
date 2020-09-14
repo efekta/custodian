@@ -340,14 +340,19 @@ body.overflow {
 .logo-link {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 35px;
   padding: 40px 0;
   font-size: 18px;
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
+  width: 180px;
 }
-
+@media(max-width: 992px) {
+  .logo-link {
+    width: 100px;
+  }
+}
 .logo-link:hover {
   color: #fff;
 }
@@ -666,7 +671,7 @@ body.overflow {
 
 .company-subtitle {
   color: #ffffff;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   margin-bottom: 25px;
 }
@@ -3674,6 +3679,15 @@ h3.offer-clients__title {
   font-size: 15px;
   font-weight: 900;
   text-transform: uppercase;
+  width: 150px;
+}
+@media(max-width: 992px) {
+  .footer-logo {
+    width: 100px;
+  }
+}
+.footer-logo img {
+  max-width: 100%;
 }
 .footer-logo:hover {
     color: #fff;
@@ -3887,6 +3901,12 @@ h3.offer-clients__title {
         font-size: 20px;
     }
 }
+.modal-body {
+  padding: 0;
+}
+.modal-header {
+  padding-bottom: 0;
+}
 .modal-content > *:first-child {
     margin-top: 0;
 }
@@ -4010,6 +4030,7 @@ textarea:focus {
     left: 0;
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 
 
@@ -4031,4 +4052,10 @@ input[type="checkbox"]:checked + label .ico-input .ico-input-check {
         margin-left: auto;
         margin-right: auto;
     }
+}
+@media(max-width: 767px) {
+  .modal.is-visible .modal-transition {
+    height: 90vh;
+    overflow-y: scroll;
+  }
 }
