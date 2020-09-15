@@ -3319,7 +3319,7 @@ h3.offer-clients__title {
   justify-content: space-between;
   padding: 20px 0 20px 40px;
   max-width: 90%;
-  margin: auto;
+  margin: auto !important;
 }
 
 @media (max-width: 991px) {
@@ -3342,6 +3342,9 @@ h3.offer-clients__title {
 @media (max-width: 1170px) {
   .box-advantages__item {
     font-size: 22px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -4057,5 +4060,30 @@ input[type="checkbox"]:checked + label .ico-input .ico-input-check {
   .modal.is-visible .modal-transition {
     height: 90vh;
     overflow-y: scroll;
+  }
+}
+
+.pr-header {
+  position: relative;
+  height: 100vh;
+  min-height: 700px;
+  background-size: cover;
+  background: url('../img/pr-bg-head.png') no-repeat center;
+}
+.pr-box-advantages {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pr-box-advantages__item {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.pr-advantages__item {
+  margin-bottom: 50px;
+}
+
+@media(max-width: 767px) {
+  .pr-advantages__item {
+    margin-bottom: 0;
   }
 }
