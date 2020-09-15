@@ -81,28 +81,46 @@ $('.form-modal').submit((e) => {
 })
 
 $(document).ready(function(){
-    $('.pr-slider').owlCarousel({
-        center: true,
-        items:4,
-        loop:false,
-        margin:10,
-        responsive:{
-            600:{
-                items:3
-            }
+  /*======================
+  SLIDER
+
+  =======================*/
+    $('.pr-slider').slick({
+      dots: false,
+      arrow: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 4,
+      centerMode: true,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
         }
+      ]
     });
-    // $('.nonloop').owlCarousel({
-    //     center: true,
-    //     items:2,
-    //     loop:false,
-    //     margin:10,
-    //     responsive:{
-    //         600:{
-    //             items:4
-    //         }
-    //     }
-    // });
     /*================================
     Плавный скролл до якоря jquery
     =================================*/

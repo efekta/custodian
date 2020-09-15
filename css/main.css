@@ -4106,11 +4106,19 @@ input[type="checkbox"]:checked + label .ico-input .ico-input-check {
   font-weight: 900;
   text-transform: uppercase;
   font-size: 40px;
+  margin-bottom: 25px;
 }
 .pr-tariffs-desc {
   font-size: 24px;
+  margin-bottom: 25px;
 }
 .pr-slider__item {
+  height: 280px;
+  padding: 50px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
   border: 1px solid #161dbe;
 }
 @media(max-width: 1024px) {
