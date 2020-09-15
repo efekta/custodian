@@ -3,21 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6b218832-13cf-4996-8401-0d1143c30b39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/animate/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/autosize/autosize.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/owl.carusel-2.3.4/css/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/owl.carusel-2.3.4/css/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/owl.carusel-2.3.4/css/owl.theme.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/owl.carusel-2.3.4/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/parallax/parallax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/parallax/parallax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/simplebox/imgs/simplebox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/simplebox/simplebox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/simplebox/simplebox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/simplebox/simplebox_util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/wow/wow.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pr.html" beforeDir="false" afterPath="$PROJECT_DIR$/pr.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +60,7 @@
       <workItem from="1600161925712" duration="1704000" />
       <workItem from="1600163778464" duration="1356000" />
       <workItem from="1600165700460" duration="979000" />
-      <workItem from="1600168662216" duration="52000" />
+      <workItem from="1600168662216" duration="457000" />
     </task>
     <task id="LOCAL-00001" summary="ready главная">
       <created>1600151478364</created>
@@ -112,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600165817212</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="pr slider ready">
+      <created>1600168832778</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600168832778</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,16 +114,17 @@
     <MESSAGE value="ready главная" />
     <MESSAGE value="pr" />
     <MESSAGE value="pr slider start" />
-    <option name="LAST_COMMIT_MESSAGE" value="pr slider start" />
+    <MESSAGE value="pr slider ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="pr slider ready" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="329" y="23" key="CommitChangelistDialog2" timestamp="1600168719162">
+    <state x="329" y="23" key="CommitChangelistDialog2" timestamp="1600168832042">
       <screen x="0" y="23" width="1440" height="852" />
     </state>
-    <state x="329" y="23" key="CommitChangelistDialog2/0.23.1440.852@0.23.1440.852" timestamp="1600168719162" />
-    <state x="320" y="185" key="Vcs.Push.Dialog.v2" timestamp="1600165834644">
+    <state x="329" y="23" key="CommitChangelistDialog2/0.23.1440.852@0.23.1440.852" timestamp="1600168832042" />
+    <state x="320" y="185" key="Vcs.Push.Dialog.v2" timestamp="1600168840267">
       <screen x="0" y="23" width="1440" height="852" />
     </state>
-    <state x="320" y="185" key="Vcs.Push.Dialog.v2/0.23.1440.852@0.23.1440.852" timestamp="1600165834644" />
+    <state x="320" y="185" key="Vcs.Push.Dialog.v2/0.23.1440.852@0.23.1440.852" timestamp="1600168840266" />
   </component>
 </project>
