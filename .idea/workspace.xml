@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b218832-13cf-4996-8401-0d1143c30b39" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/owl.carusel-2.3.4/css/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/owl.carusel-2.3.4/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pr.html" beforeDir="false" afterPath="$PROJECT_DIR$/pr.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hVAikMFcESnm8wpgPLsy3fi9TC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b218832-13cf-4996-8401-0d1143c30b39" name="Default Changelist" comment="" />
+      <created>1600086014075</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600086014075</updated>
+      <workItem from="1600086019505" duration="580000" />
+      <workItem from="1600091869173" duration="68000" />
+      <workItem from="1600151369375" duration="581000" />
+      <workItem from="1600154791719" duration="1707000" />
+      <workItem from="1600156608499" duration="1617000" />
+      <workItem from="1600161925712" duration="1704000" />
+      <workItem from="1600163778464" duration="1356000" />
+      <workItem from="1600165700460" duration="56000" />
+    </task>
+    <task id="LOCAL-00001" summary="ready главная">
+      <created>1600151478364</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600151478364</updated>
+    </task>
+    <task id="LOCAL-00002" summary="pr">
+      <created>1600157531698</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600157531698</updated>
+    </task>
+    <task id="LOCAL-00003" summary="pr">
+      <created>1600157586684</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600157586684</updated>
+    </task>
+    <task id="LOCAL-00004" summary="pr">
+      <created>1600158093405</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600158093405</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ready главная" />
+    <MESSAGE value="pr" />
+    <option name="LAST_COMMIT_MESSAGE" value="pr" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="329" y="23" key="CommitChangelistDialog2" timestamp="1600158093213">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="329" y="23" key="CommitChangelistDialog2/0.23.1440.852@0.23.1440.852" timestamp="1600158093213" />
+    <state x="320" y="185" key="Vcs.Push.Dialog.v2" timestamp="1600158095637">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="320" y="185" key="Vcs.Push.Dialog.v2/0.23.1440.852@0.23.1440.852" timestamp="1600158095637" />
+  </component>
+</project>

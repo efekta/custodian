@@ -81,6 +81,28 @@ $('.form-modal').submit((e) => {
 })
 
 $(document).ready(function(){
+    $('.pr-slider').owlCarousel({
+        center: true,
+        items:4,
+        loop:false,
+        margin:10,
+        responsive:{
+            600:{
+                items:3
+            }
+        }
+    });
+    // $('.nonloop').owlCarousel({
+    //     center: true,
+    //     items:2,
+    //     loop:false,
+    //     margin:10,
+    //     responsive:{
+    //         600:{
+    //             items:4
+    //         }
+    //     }
+    // });
     /*================================
     Плавный скролл до якоря jquery
     =================================*/

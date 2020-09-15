@@ -4081,9 +4081,50 @@ input[type="checkbox"]:checked + label .ico-input .ico-input-check {
 .pr-advantages__item {
   margin-bottom: 50px;
 }
-
+.pr-title-desc {
+  text-align: left;
+}
+@media(max-width: 1024px) {
+  .pr-title-desc {
+    text-align: right;
+  }
+}
 @media(max-width: 767px) {
   .pr-advantages__item {
     margin-bottom: 0;
+  }
+}
+.pr-special-offer-desc {
+  text-transform: none;
+  margin-bottom: 20px;
+}
+.pr-special-offer-form {
+  margin-top: 120px;
+}
+.pr-tariffs-title {
+  color: #161dbe;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.pr-tariffs-desc {
+  font-size: 24px;
+}
+.pr-slider__item {
+  border: 1px solid #161dbe;
+}
+@media(max-width: 1024px) {
+  .pr-tariffs-title {
+    font-size: 26px;
+  }
+}
+@media(max-width: 768px) {
+  .pr-special-offer-form {
+    margin-top: 0;
+  }
+}
+@media(max-width: 767px) {
+  .pr-tariffs-title {
+    font-size: 24px;
   }
 }
