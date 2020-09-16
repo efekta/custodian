@@ -4121,9 +4121,47 @@ input[type="checkbox"]:checked + label .ico-input .ico-input-check {
   margin: 20px;
   border: 1px solid #161dbe;
 }
+.pr-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pr-box__item-inner {
+  margin-left: 20%;
+}
+.pr-box__item {
+  width: 25%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+.pr-box__item::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 90px;
+  width: 1px;
+  background: #161dbe;
+  transform: translateY(-50%);
+}
+.pr-box__item img {
+  max-width: 100%;
+}
 @media(max-width: 1024px) {
   .pr-tariffs-title {
     font-size: 26px;
+  }
+  .pr-box__item {
+    width: 48%;
+    justify-content: center;
+  }
+  .pr-box__item-inner {
+    margin-left: 0;
+  }
+  .pr-box__item::before {
+    display: none;
   }
 }
 @media(max-width: 768px) {
@@ -4134,5 +4172,8 @@ input[type="checkbox"]:checked + label .ico-input .ico-input-check {
 @media(max-width: 767px) {
   .pr-tariffs-title {
     font-size: 24px;
+  }
+  .pr-box__item {
+    width: 100%;
   }
 }
