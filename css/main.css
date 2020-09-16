@@ -1293,7 +1293,7 @@ body.overflow {
   content: "";
   position: absolute;
   top: 0;
-  left: 50px;
+  left: 0;
   background: #fff;
   width: 100%;
   height: 100%;
@@ -4155,6 +4155,9 @@ input[type="checkbox"]:checked + label .ico-input .ico-input-check {
   font-weight: bold;
   padding-bottom: 5px;
 }
+.pr-more-link:hover {
+  color: #161dbe;
+}
 .pr-box-title-content__desc {
   width: 100%;
   font-size: 24px;
@@ -4357,6 +4360,41 @@ input.pr-form__input:hover, input.pr-form__input:active, input.pr-form__input:fo
   width: 750px;
   margin: auto;
 }
+.video-box-title {
+  color: #161dbe;
+  font-size: 40px;
+  font-weight: 900;
+}
+.v-resolution__item {
+  background: transparent;
+  border: 1px solid #161dbe;
+}
+.v-resolution-content {
+  position: relative;
+}
+.v-resolution-content:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 100px;
+  height: 100%;
+  background: #e5e6eb;
+  z-index: -1;
+}
+.section-video-price {
+  min-height: 500px;
+  background: url('../img/v-bg.png') no-repeat center;
+  background-size: cover;
+  padding: 60px 0;
+}
+.v-coworking-price {
+  justify-content: flex-start;
+}
+.v-coworking-price__item {
+  width: 33%;
+}
+
 @media(max-width: 1280px) {
   .v-direction-activity {
     flex-wrap: wrap;
@@ -4386,6 +4424,9 @@ input.pr-form__input:hover, input.pr-form__input:active, input.pr-form__input:fo
   }
 }
 @media(max-width: 1024px) {
+  .section-video-price {
+    padding: 30px 0;
+  }
   .pr-title-desc {
     text-align: right;
   }
@@ -4416,6 +4457,9 @@ input.pr-form__input:hover, input.pr-form__input:active, input.pr-form__input:fo
   }
   .video-desc {
     font-size: 18px;
+  }
+  .v-coworking-price__item {
+    width: 48%;
   }
 }
 @media(max-width: 768px) {
@@ -4451,5 +4495,10 @@ input.pr-form__input:hover, input.pr-form__input:active, input.pr-form__input:fo
   }
   .video-desc {
     font-size: 16px;
+  }
+  .v-coworking-price__item {
+    width: 100%;
+    margin-bottom: 25px;
+    border: 1px solid #fff;
   }
 }

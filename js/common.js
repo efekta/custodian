@@ -83,7 +83,6 @@ $('.form-modal').submit((e) => {
 $(document).ready(function(){
   /*======================
   SLIDER
-
   =======================*/
     $('.pr-slider').slick({
       dots: false,
@@ -139,12 +138,6 @@ $(document).ready(function(){
         // $('.nav').toggleClass("nav_hide");
         $('body').toggleClass('overflow');
 
-    });
-    jQuery(window).width() <= 992 && $(".nav-list li").on('click', function() {
-        $('.menu-toggle').removeClass("on");
-        $('.nav-list').removeClass("show");
-        // $('.nav').removeClass("nav_hide");
-        $('body').removeClass('overflow');
     });
     // function mobileOnlySlider() {
     //     $('.pr-box').slick({
