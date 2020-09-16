@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6b218832-13cf-4996-8401-0d1143c30b39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pr.html" beforeDir="false" afterPath="$PROJECT_DIR$/pr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,26 +20,16 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -60,7 +48,9 @@
       <workItem from="1600161925712" duration="1704000" />
       <workItem from="1600163778464" duration="1356000" />
       <workItem from="1600165700460" duration="979000" />
-      <workItem from="1600168662216" duration="457000" />
+      <workItem from="1600168662216" duration="983000" />
+      <workItem from="1600199269802" duration="296000" />
+      <workItem from="1600238310582" duration="72000" />
     </task>
     <task id="LOCAL-00001" summary="ready главная">
       <created>1600151478364</created>
@@ -104,27 +94,38 @@
       <option name="project" value="LOCAL" />
       <updated>1600168832778</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="pr">
+      <created>1600169281071</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600169281072</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ready главная" />
-    <MESSAGE value="pr" />
     <MESSAGE value="pr slider start" />
     <MESSAGE value="pr slider ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="pr slider ready" />
+    <MESSAGE value="pr" />
+    <option name="LAST_COMMIT_MESSAGE" value="pr" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="329" y="23" key="CommitChangelistDialog2" timestamp="1600168832042">
+    <state x="329" y="23" key="CommitChangelistDialog2" timestamp="1600169280627">
       <screen x="0" y="23" width="1440" height="852" />
     </state>
-    <state x="329" y="23" key="CommitChangelistDialog2/0.23.1440.852@0.23.1440.852" timestamp="1600168832042" />
-    <state x="320" y="185" key="Vcs.Push.Dialog.v2" timestamp="1600168840267">
+    <state x="329" y="23" key="CommitChangelistDialog2/0.23.1440.852@0.23.1440.852" timestamp="1600169280627" />
+    <state x="266" y="153" key="SettingsEditor" timestamp="1600199578812">
       <screen x="0" y="23" width="1440" height="852" />
     </state>
-    <state x="320" y="185" key="Vcs.Push.Dialog.v2/0.23.1440.852@0.23.1440.852" timestamp="1600168840266" />
+    <state x="266" y="153" key="SettingsEditor/0.23.1440.852@0.23.1440.852" timestamp="1600199578812" />
+    <state x="320" y="185" key="Vcs.Push.Dialog.v2" timestamp="1600169283612">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="320" y="185" key="Vcs.Push.Dialog.v2/0.23.1440.852@0.23.1440.852" timestamp="1600169283612" />
   </component>
 </project>
