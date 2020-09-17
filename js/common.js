@@ -1,3 +1,15 @@
+jQuery(document).ready(function($) {
+    $(window).on('load', function () {
+        var $preloader = $('#preloader'),
+            $loader = $preloader.find('#loader');
+        $loader.fadeOut();
+        $preloader.delay(250).fadeOut(200);
+    });
+});
+
+
+
+
 const makeData = (elements) => {
   let data = {}
   for (let item of elements) {
