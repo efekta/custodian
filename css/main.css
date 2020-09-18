@@ -4573,7 +4573,12 @@ input.pr-form__input:hover, input.pr-form__input:active, input.pr-form__input:fo
   width: 100%;
   outline: none;
 }
-
+.custom-select:focus {
+  outline: none;
+  border-color: #040707;
+  outline: 0;
+  box-shadow: none;
+}
 .select-title {
   font-size: 16px;
   font-weight: 500;
