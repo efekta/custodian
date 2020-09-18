@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b218832-13cf-4996-8401-0d1143c30b39" name="Default Changelist" comment="" />
+    <list default="true" id="6b218832-13cf-4996-8401-0d1143c30b39" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +53,10 @@
       <workItem from="1600199269802" duration="296000" />
       <workItem from="1600238310582" duration="22421000" />
       <workItem from="1600344828585" duration="82000" />
-      <workItem from="1600345138644" duration="4302000" />
+      <workItem from="1600345138644" duration="4396000" />
+      <workItem from="1600366847611" duration="196000" />
+      <workItem from="1600407047684" duration="19000" />
+      <workItem from="1600413546790" duration="126000" />
     </task>
     <task id="LOCAL-00001" summary="ready главная">
       <created>1600151478364</created>
@@ -199,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600349726270</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="video ready">
+      <created>1600352830846</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1600352830846</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,17 +234,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="video ready" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="329" y="23" key="CommitChangelistDialog2" timestamp="1600349725974">
+    <state x="329" y="23" key="CommitChangelistDialog2" timestamp="1600352830544">
       <screen x="0" y="23" width="1440" height="852" />
     </state>
-    <state x="329" y="23" key="CommitChangelistDialog2/0.23.1440.852@0.23.1440.852" timestamp="1600349725974" />
+    <state x="329" y="23" key="CommitChangelistDialog2/0.23.1440.852@0.23.1440.852" timestamp="1600352830544" />
     <state x="266" y="153" key="SettingsEditor" timestamp="1600199578812">
       <screen x="0" y="23" width="1440" height="852" />
     </state>
     <state x="266" y="153" key="SettingsEditor/0.23.1440.852@0.23.1440.852" timestamp="1600199578812" />
-    <state x="320" y="185" key="Vcs.Push.Dialog.v2" timestamp="1600349730522">
+    <state x="320" y="185" key="Vcs.Push.Dialog.v2" timestamp="1600352832693">
       <screen x="0" y="23" width="1440" height="852" />
     </state>
-    <state x="320" y="185" key="Vcs.Push.Dialog.v2/0.23.1440.852@0.23.1440.852" timestamp="1600349730522" />
+    <state x="320" y="185" key="Vcs.Push.Dialog.v2/0.23.1440.852@0.23.1440.852" timestamp="1600352832693" />
   </component>
 </project>
