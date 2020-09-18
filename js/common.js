@@ -93,6 +93,7 @@ $('.form-modal').submit((e) => {
 })
 
 $(document).ready(function(){
+    $('.my-select').customSelect();
   /*======================
   SLIDER
   =======================*/

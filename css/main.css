@@ -4564,6 +4564,42 @@ input.pr-form__input:hover, input.pr-form__input:active, input.pr-form__input:fo
   margin-bottom: 0;
 }
 
+.customSelect {
+  /* Styles For Your Select Box */
+  position: relative;
+  border: 1px solid #040707;
+  border-radius: 0;
+  padding: 15px;
+  width: 100%;
+}
+
+
+.customSelect.changed {
+  /* You can use this if you want a different style after user has made a selection */
+}
+
+.customSelectFocus {
+  /* You can use this if you want a different style after user has made a selection */
+}
+
+.customSelectOpen {
+  /* You can use this if you want a different style after user has made a selection */
+}
+
+
+/* We can style the inner box, too */
+.customSelectInner {
+  background:url('../libs/customSelect/canvas-list-nav-item-arrow.gif') no-repeat center right;
+}
+.select-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #040707;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+
 @media(max-width: 1280px) {
   .v-direction-activity {
     flex-wrap: wrap;
