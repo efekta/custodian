@@ -4571,6 +4571,7 @@ input.pr-form__input:hover, input.pr-form__input:active, input.pr-form__input:fo
   border-radius: 0;
   padding: 15px;
   width: 100%;
+  outline: none;
 }
 
 .select-title {
