@@ -4567,9 +4567,10 @@ input.pr-form__input:hover, input.pr-form__input:active, input.pr-form__input:fo
 .custom-select {
   /* Styles For Your Select Box */
   position: relative;
+  height: 40px;
   border: 1px solid #040707;
   border-radius: 0;
-  padding: 15px;
+  padding: 5px 15px;
   width: 100%;
   outline: none;
 }
